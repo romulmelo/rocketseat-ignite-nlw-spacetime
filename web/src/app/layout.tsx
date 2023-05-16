@@ -24,7 +24,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" dir="ltr" className="scroll-smooth antialiased">
-      <body className={`font-sans ${roboto.variable} ${bai.variable}`}>
+      <body
+        className={`bg-gray-900 font-sans text-gray-100 ${roboto.variable} ${bai.variable}`}
+      >
         {children}
       </body>
     </html>
